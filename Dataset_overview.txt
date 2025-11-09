@@ -1,0 +1,29 @@
+NASA Bearing Dataset Description
+
+Overview
+This NASA Bearing Dataset contains raw vibration sensor data collected from multiple tests of bearings running until failure. It is designed to support predictive maintenance research by providing real-world time-series vibration recordings.
+
+Data Structure
+The dataset consists of multiple folders corresponding to different tests:
+
+1st test/
+2nd test/
+3rd test/
+
+Each folder contains multiple snapshot files named by timestamp (e.g., 2003.10.23.00.54.13).
+
+Each snapshot file records 20,000 vibration amplitude measurements sampled over 1 second at 20,000 Hz frequency.
+
+The vibration data reflects the healthy state through to various stages of bearing wear and eventual failure.
+
+Usage Notes
+The data files are large and can take up multiple gigabytes. It is recommended to use sample subsets or downsampled versions for quick experiments.
+
+The dataset is public and can be downloaded from the official NASA Prognostics Data Repository:
+
+o	NASA bearing dataset : https://www.kaggle.com/datasets/vinayak123tyagi/bearing-dataset
+
+Integration with Code
+Update your analysis scripts' folder_path variable to point to the location where you download and extract this dataset.
+
+Use the provided folders and filenames to load vibration snapshots for feature extraction and anomaly detection.
