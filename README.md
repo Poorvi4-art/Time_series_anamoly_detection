@@ -229,8 +229,8 @@ Export Results (CSV file for further analysis)
 
 ## Questions or Issues?
 
-- Check the `Project_Summary.md` file for detailed explanations
-- Review inline comments in `bearing_anomaly_detection.py`
+- Check the `Anamoly_detection_model_summary.md` file for detailed explanations
+- Review inline comments in `anomaly_detection.ipynb`
 - Check the visualizations — they tell the story of bearing degradation
 
 ---
